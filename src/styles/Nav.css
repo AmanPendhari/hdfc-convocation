@@ -1,0 +1,31 @@
+.Nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.navbtn {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.btn {
+  font-size: 0.9rem;
+  background-color: var(--color-gray);
+  border: none;
+  padding: 0.8rem 2.5rem;
+  position: relative;
+}
+
+.btn:where(:not(.selected)) + .btn:where(:not(.selected))::before {
+  background: linear-gradient(var(--color-gray), #000, var(--color-gray));
+  position: absolute;
+  width: 1px;
+  top: 10px;
+  bottom: 10px;
+  content: "";
+  left: 1px;
+}
+.selected {
+  background-color: var(--color-red);
+  color: white;
+}

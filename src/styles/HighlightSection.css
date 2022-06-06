@@ -1,0 +1,13 @@
+.highlight h3 {
+  font-size: var(--section-heading-size);
+  text-align: center;
+  color: var(--color-blue);
+  font-family: "Soho";
+  font-weight: normal;
+}
+.card{
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  overflow-x: auto;
+ }

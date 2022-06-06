@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 61px;
+}
+.main p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.videocontainer {
+  position: relative;
+}
+.videocontainer .convo {
+  width: 600px;
+  position: relative;
+}
+
+.videocontainer .playbtn {
+  width: 60px;
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.videocontainer .blurcontainer::after {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  backdrop-filter: blur(6px);
+}
+.paragraph p {
+  color: var(--color-black);
+  font-size: 15px;
+  font-family: Source Sans Pro;
+}
+.click {
+  padding: 0.8rem 2.5rem;
+  font-size: 0.9rem;
+  background-color: var(--color-red);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+}

@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React, { useEffect } from "react";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Main from "./components/Main";
+import SpeakersSection from "./components/SpeakersSection";
+import HighlightSection from "./components/HighlightSection";
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Nav />
+      <Main />
+      <SpeakersSection />
+      <HighlightSection />
     </div>
   );
 }
-
-export default App;

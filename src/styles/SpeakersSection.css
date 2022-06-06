@@ -1,0 +1,19 @@
+.head {
+  font-size: var(--section-heading-size);
+  text-align: center;
+}
+
+.speakers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 46px;
+}
+.container {
+  max-width: 800px;
+  min-width: 500px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
