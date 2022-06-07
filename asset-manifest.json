@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hdfc-convocation/static/css/main.92197d0c.css",
+    "main.css": "/hdfc-convocation/static/css/main.9502dc1b.css",
     "main.js": "/hdfc-convocation/static/js/main.ca3caef3.js",
     "static/js/787.3df0f939.chunk.js": "/hdfc-convocation/static/js/787.3df0f939.chunk.js",
     "static/media/Times New Roman Bold.ttf": "/hdfc-convocation/static/media/Times New Roman Bold.52cae610797e70864671.ttf",
@@ -21,12 +21,12 @@
     "static/media/vibha.png": "/hdfc-convocation/static/media/vibha.cc1db9844cefd2931286.png",
     "static/media/sunil.png": "/hdfc-convocation/static/media/sunil.634c17b4158417464259.png",
     "index.html": "/hdfc-convocation/index.html",
-    "main.92197d0c.css.map": "/hdfc-convocation/static/css/main.92197d0c.css.map",
+    "main.9502dc1b.css.map": "/hdfc-convocation/static/css/main.9502dc1b.css.map",
     "main.ca3caef3.js.map": "/hdfc-convocation/static/js/main.ca3caef3.js.map",
     "787.3df0f939.chunk.js.map": "/hdfc-convocation/static/js/787.3df0f939.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92197d0c.css",
+    "static/css/main.9502dc1b.css",
     "static/js/main.ca3caef3.js"
   ]
 }
