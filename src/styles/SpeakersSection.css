@@ -12,13 +12,28 @@
 .container {
   max-width: 800px;
   min-width: 500px;
+  overflow: hidden;
   width: 70%;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 @media only screen and (max-width: 480px){
+
   .head{
     font-size: 29px;
+  }
+
+  .speakers{
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+  .container{
+    width: 100%;
+    max-width: initial;
+    box-sizing: border-box;
+    display: flex;
+    min-width: initial;
   }
 }

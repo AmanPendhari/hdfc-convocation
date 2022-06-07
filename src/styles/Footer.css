@@ -1,6 +1,5 @@
 .footer{
     margin-top: 20px;
-    height: 370px;
     background-color: var(--color-dark-black);
     padding: 30px;
     position: relative;
@@ -56,9 +55,6 @@
        right: 60px;
   }
   @media only screen and (max-width: 480px){
- .footer{
-     height: 100%;
- }
  .terms{
    font-size: 16px;  
  }
