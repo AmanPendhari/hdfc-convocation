@@ -1,6 +1,7 @@
 import React from "react";
 import HighlightData from "../HighlightData";
 import "../styles/HighlightSection.css";
+import Footer from "./Footer";
 import HighlightCard from "./HighlightCard";
 
 function HighlightSection() {
@@ -16,13 +17,14 @@ return(
 <HighlightCard
 images={items.images}
 Description={items.Description}
-
 />
+
 
 );
 
       })}
     </div>
+    <Footer/>
     </>
   );
 }

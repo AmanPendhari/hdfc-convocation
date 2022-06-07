@@ -11,3 +11,8 @@
   /* justify-content: center; */
   overflow-x: auto;
  }
+ 
+ @media only screen and (max-width: 480px){
+
+  
+ }

@@ -7,7 +7,7 @@ function Header() {
     <div className="Header">
       <img className="logo" src={logo} alt="" srcset="" />
       <img className="convologo" src={convologo} alt="" srcset="" />
-      <p>
+      <p >
         Begins in <span>4d 18h</span>
       </p>
     </div>

@@ -51,5 +51,27 @@
   background-color: var(--color-red);
   color: #fff;
   border: none;
-  border-radius: 15px;
+  border-radius: 21px;
+}
+@media only screen and (max-width: 480px){
+  .main p {
+    text-align: center;
+    font-size: 17px;
+    margin-top: -3rem;
+  }
+  .videocontainer {
+    width: 100%;
+  }
+  .videocontainer .convo {
+    width: 100%;
+  
+  }
+  .paragraph{
+    font-size: 20px;
+    margin-top: 4rem;
+  }
+  .click{
+width: 70%;
+
+  }
 }
