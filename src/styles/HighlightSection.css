@@ -5,9 +5,13 @@
   font-family: "Soho";
   font-weight: normal;
 }
+.highlight {
+  padding: 46px 0px;
+}
 .card{
   display: flex;
   /* flex-direction: row; */
   /* justify-content: center; */
   overflow-x: auto;
+  padding: 0px 46px;
  }

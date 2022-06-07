@@ -3,12 +3,10 @@ import HighlightData from "../HighlightData";
 import "../styles/HighlightSection.css";
 import HighlightCard from "./HighlightCard";
 
-function HighlightSection() {
+function HighlightSection({refProp}) {
   return (
-    <>
-    <div className="highlight">
+    <div className="highlight" ref={refProp}>
       <h3>Highlight</h3>
-      </div>
       
       <div className="card">
       {HighlightData.map((items)=>{
@@ -23,7 +21,7 @@ Description={items.Description}
 
       })}
     </div>
-    </>
+    </div>
   );
 }
 

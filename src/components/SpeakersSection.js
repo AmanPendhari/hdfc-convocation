@@ -3,9 +3,9 @@ import "../styles/SpeakersSection.css";
 import Speaker from "./Speaker";
 import speakersData from "../speakersData";
 
-function SpeakersSection() {
+function SpeakersSection({refProp}) {
   return (
-    <div className="speakers">
+    <div className="speakers" ref={refProp}>
       <div className="container">
         <p className="head">Speakers</p>
 

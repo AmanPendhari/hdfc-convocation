@@ -3,9 +3,9 @@ import "../styles/Main.css";
 import convovideo from "../images/convocation_video.png";
 import playbtn from "../images/play_button.png";
 
-function main() {
+function main({refProp}) {
   return (
-    <div className="main">
+    <div className="main" ref={refProp}>
       <p>
         A unique
         <span>
