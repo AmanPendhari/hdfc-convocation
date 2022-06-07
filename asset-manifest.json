@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hdfc-convocation/static/css/main.d742666d.css",
-    "main.js": "/hdfc-convocation/static/js/main.5fadd612.js",
+    "main.css": "/hdfc-convocation/static/css/main.92197d0c.css",
+    "main.js": "/hdfc-convocation/static/js/main.ca3caef3.js",
     "static/js/787.3df0f939.chunk.js": "/hdfc-convocation/static/js/787.3df0f939.chunk.js",
     "static/media/Times New Roman Bold.ttf": "/hdfc-convocation/static/media/Times New Roman Bold.52cae610797e70864671.ttf",
     "static/media/Times New Roman.ttf": "/hdfc-convocation/static/media/Times New Roman.f4e3a464f960c9dea950.ttf",
@@ -21,12 +21,12 @@
     "static/media/vibha.png": "/hdfc-convocation/static/media/vibha.cc1db9844cefd2931286.png",
     "static/media/sunil.png": "/hdfc-convocation/static/media/sunil.634c17b4158417464259.png",
     "index.html": "/hdfc-convocation/index.html",
-    "main.d742666d.css.map": "/hdfc-convocation/static/css/main.d742666d.css.map",
-    "main.5fadd612.js.map": "/hdfc-convocation/static/js/main.5fadd612.js.map",
+    "main.92197d0c.css.map": "/hdfc-convocation/static/css/main.92197d0c.css.map",
+    "main.ca3caef3.js.map": "/hdfc-convocation/static/js/main.ca3caef3.js.map",
     "787.3df0f939.chunk.js.map": "/hdfc-convocation/static/js/787.3df0f939.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d742666d.css",
-    "static/js/main.5fadd612.js"
+    "static/css/main.92197d0c.css",
+    "static/js/main.ca3caef3.js"
   ]
 }
