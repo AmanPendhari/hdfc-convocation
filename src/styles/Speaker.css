@@ -51,7 +51,12 @@
 }
 @media only screen and (max-width: 480px){
   
-
+.speaker{
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
 .name{
   text-align: center;
 }
@@ -64,15 +69,7 @@
 .rtl .description {
   text-align: center;
 }
-.speaker::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 6px;
-  width: 6px;
-  height: 50%;
-  background-color: var(--color-red);
-}
+
 .rtl::after {
   right: 0;
   left: initial;

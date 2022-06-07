@@ -33,14 +33,19 @@
   color: white;
 }
 @media only screen and (max-width: 480px){
+.Nav{
+  width: 100%;
+  box-sizing: border-box;
+  align-items: stretch;
+  justify-content: center;
+}
 .navbtn{
   width: 100%;
+  border-radius: 10px;
+  display: flex;
 }
-button{
-  font-size: 14px;
-  width: 115px;
-  border: 5px;
-
+.btn{
+  width: 100%;
+  padding: 0.8rem 1.5rem;
 }
-
 } 
