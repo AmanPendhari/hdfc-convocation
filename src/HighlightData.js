@@ -24,20 +24,4 @@ export default [
     images: avtar,
     Description: `A wide range of avatars to choose from.`,
   },
-  {
-    images: avtar,
-    Description: `A wide range of avatars to choose from.`,
-  },
-  {
-    images: avtar,
-    Description: `A wide range of avatars to choose from.`,
-  },
-  {
-    images: avtar,
-    Description: `A wide range of avatars to choose from.`,
-  },
-  {
-    images: avtar,
-    Description: `A wide range of avatars to choose from.`,
-  },
 ];

@@ -21,4 +21,8 @@
   .head{
     font-size: 29px;
   }
+  .speakers{
+  width: 100%;
+  background-color: #d1d3d4;
+  }
 }
